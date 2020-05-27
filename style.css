@@ -132,11 +132,10 @@
 }
 
 .body__tail {
-    margin: -153% 0 0 319%;
+    margin: -158% 0 0 319%;
     width: 150px;
     height: 150px;
     border-radius: 0 100px 150px 0;
-    border-bottom: 20px solid orange;
+    border-bottom: 32px solid orange;
     border-right: 20px solid orange;
-
 }
