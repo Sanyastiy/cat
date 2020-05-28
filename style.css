@@ -1,4 +1,4 @@
-.container {
+.cat {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,14 +6,8 @@
     padding: 20vh 0 0 30vw;
 }
 
-.cat {
-    display: flex;
-    flex-direction: column;
-}
-
 .head__ears {
     display: flex;
-    flex-direction: row;
 }
 
 .head__ear {
@@ -36,8 +30,6 @@
 }
 
 .cat__head {
-    display: flex;
-    flex-direction: column;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -91,14 +83,24 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin: 0 0 0 50px;
+    margin: -30px 0 0 50px;
+}
 
+.head__tongue{
+    margin: 0 0 0 70px;
+    display: block;
+    width: 20px;
+    height: 25px;
+    background: pink;
+    border-radius: 0 0 50px 50px;
+    border-bottom: 2px solid darksalmon;
 }
 
 .head__lip {
     display: block;
     width: 30px;
     height: 15px;
+    background: orange;
     border-radius: 0 0 50px 50px;
     border-bottom: 2px solid #000;
 }
