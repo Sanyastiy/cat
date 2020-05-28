@@ -9,6 +9,7 @@
 .cat {
     display: flex;
     flex-direction: column;
+
 }
 
 .ears {
@@ -33,6 +34,8 @@
 }
 
 .head {
+    display: flex;
+    flex-direction: column;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -132,7 +135,7 @@
 }
 
 .tail {
-    margin: -21% 0 0 43%;
+    margin: -24% 0 0 48%;
     width: 150px;
     height: 150px;
     border-radius: 0 100px 150px 0;
