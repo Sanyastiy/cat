@@ -18,15 +18,22 @@
 }
 
 .ears__ear {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    border-color: orange transparent;
-    border-style: solid;
-    border-width: 0 40px 80px 40px;
-    height: 0;
-    width: 0;
-    margin-right: 40px;
+    width: 60px;
+    height: 60px;
+    background: orange;
+    /* Rotate */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    /* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    margin: -25px -25px 40px 60px;
 }
 
 .ears__ear-inner {
