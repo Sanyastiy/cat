@@ -9,7 +9,6 @@
 .cat {
     display: flex;
     flex-direction: column;
-
 }
 
 .head__ears {
@@ -107,7 +106,7 @@
 .cat__body {
     display: flex;
     flex-direction: row;
-    margin: -5% 0 0 40px;
+    margin: -60px 0 0 40px;
     width: 600px;
     height: 300px;
     border-radius: 50%;
@@ -138,7 +137,7 @@
 }
 
 .cat__tail {
-    margin: -24% 0 0 48%;
+    margin: -315px 0 0 637px;
     width: 150px;
     height: 150px;
     border-radius: 0 100px 150px 0;
