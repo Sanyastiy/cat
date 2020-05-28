@@ -12,12 +12,12 @@
 
 }
 
-.ears {
+.head__ears {
     display: flex;
     flex-direction: row;
 }
 
-.ears__ear {
+.head__ear {
     width: 60px;
     height: 60px;
     background: orange;
@@ -36,11 +36,7 @@
     margin: -25px -25px 40px 60px;
 }
 
-.ears__ear-inner {
-    border-width: 80px 40px 0 40px;
-}
-
-.head {
+.cat__head {
     display: flex;
     flex-direction: column;
     width: 200px;
@@ -49,13 +45,13 @@
     background: orange;
 }
 
-.cat__eyes {
+.head__eyes {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.cat__eye {
+.head__eye {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -63,7 +59,7 @@
     margin-right: 40px;
 }
 
-.cat__nose {
+.head__nose {
     margin: 20px 0 0 75px;
     width: 10px;
     height: 10px;
@@ -71,8 +67,8 @@
     transform: rotate(45deg);
 }
 
-.cat__nose::before,
-.cat__nose::after {
+.head__nose::before,
+.head__nose::after {
     content: '';
     display: block;
     width: 10px;
@@ -82,17 +78,17 @@
     position: fixed;
 }
 
-.cat__nose::before {
+.head__nose::before {
     top: -5px;
     left: 0;
 }
 
-.cat__nose::after {
+.head__nose::after {
     top: 0;
     left: -5px;
 }
 
-.cat__lips {
+.head__lips {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -100,7 +96,7 @@
 
 }
 
-.cat__lip {
+.head__lip {
     display: block;
     width: 30px;
     height: 15px;
@@ -108,7 +104,7 @@
     border-bottom: 2px solid #000;
 }
 
-.body {
+.cat__body {
     display: flex;
     flex-direction: row;
     margin: -5% 0 0 40px;
@@ -141,7 +137,7 @@
     border-radius: 50%;
 }
 
-.tail {
+.cat__tail {
     margin: -24% 0 0 48%;
     width: 150px;
     height: 150px;
