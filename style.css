@@ -21,11 +21,11 @@
 .head__ears::before,
 .head__ears::after{
     content: '';
-    width: 50px;
-    height: 70px;
+    width: 40px;
+    height: 47px;
     background: orange;
-    transform: skew(35deg,-45deg);
-    margin: -50px -20px 40px 40px;
+    transform: skew(40deg,-50deg);
+    margin: -40px 0 60px 40px;
 }
 
 .head__eyes {
@@ -112,10 +112,14 @@
 }
 
 .body__foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     margin: 36% 3% 0 15%;
     height: 150px;
     width: 20px;
     background: repeating-linear-gradient(125deg, orange, darkorange, orange 50px);
+    border-radius: 0 0 50px 50px;
 }
 
 .body__foot:nth-child(2) {
@@ -126,8 +130,9 @@
     margin: 36% 1% 0 15%;
 }
 
-.body__heel {
-    margin: 700% 0 0 -35%;
+.body__foot::after{
+    content: '';
+    margin: 630% 0 0 -35%;
     height: 30px;
     width: 30px;
     background: darkgoldenrod;
