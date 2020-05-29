@@ -6,34 +6,23 @@
     padding: 20vh 0 0 30vw;
 }
 
-.head__ears {
-    display: flex;
-}
-
-.head__ear {
-    width: 60px;
-    height: 60px;
-    background: orange;
-    /* Rotate */
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    /* Rotate Origin */
-    -webkit-transform-origin: 0 100%;
-    -moz-transform-origin: 0 100%;
-    -ms-transform-origin: 0 100%;
-    -o-transform-origin: 0 100%;
-    transform-origin: 0 100%;
-    margin: -25px -25px 40px 60px;
-}
-
 .cat__head {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     background: orange;
+}
+
+.head__ears {
+    display: flex;
+}
+
+.head__ear {
+    width: 50px;
+    height: 70px;
+    background: orange;
+    transform: skew(35deg,-45deg);
+    margin: -50px -30px 40px 50px;
 }
 
 .head__eyes {
