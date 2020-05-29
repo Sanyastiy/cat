@@ -9,6 +9,8 @@
 .cat__head {
     width: 200px;
     height: 200px;
+}
+.head{
     border-radius: 50%;
     background: orange;
 }
@@ -16,22 +18,23 @@
 .head__ears {
     display: flex;
 }
-
-.head__ear {
+.head__ears::before,
+.head__ears::after{
+    content: '';
     width: 50px;
     height: 70px;
     background: orange;
     transform: skew(35deg,-45deg);
-    margin: -50px -30px 40px 50px;
+    margin: -50px -20px 40px 40px;
 }
 
 .head__eyes {
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
-
-.head__eye {
+.head__eyes::before,
+.head__eyes::after{
+    content: '';
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -75,6 +78,16 @@
     margin: -30px 0 0 50px;
 }
 
+.head__lips::before,
+.head__lips::after{
+    content: '';
+    width: 30px;
+    height: 15px;
+    background: orange;
+    border-radius: 0 0 50px 50px;
+    border-bottom: 2px solid #000;
+}
+
 .head__tongue{
     margin: 0 0 0 70px;
     display: block;
@@ -85,18 +98,12 @@
     border-bottom: 2px solid darksalmon;
 }
 
-.head__lip {
-    display: block;
-    width: 30px;
-    height: 15px;
-    background: orange;
-    border-radius: 0 0 50px 50px;
-    border-bottom: 2px solid #000;
-}
-
 .cat__body {
     display: flex;
     flex-direction: row;
+
+}
+.body{
     margin: -60px 0 0 40px;
     width: 600px;
     height: 300px;
